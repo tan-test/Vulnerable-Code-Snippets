@@ -8,7 +8,7 @@ namespace myApp
     {
     static void Main(string[] args)
     {
-        string zipPath = "/home/snoopy/extract/evil.zip";
+        zipPath = "/home/snoopy/extract/evil.zip";
         Console.WriteLine("Enter Path of Zip File to extract:");
         string zipPath = Console.ReadLine();
         Console.WriteLine("Enter Path of Destination Folder");
